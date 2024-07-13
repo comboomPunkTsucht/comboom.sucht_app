@@ -6,7 +6,7 @@ fun main() = application {
         onCloseRequest = ::exitApplication,
         title = "comboom.sucht",
         focusable = true,
-        undecorated = true
+        undecorated = false
     ) {
         App()
     }
